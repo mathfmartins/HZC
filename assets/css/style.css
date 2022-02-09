@@ -38,6 +38,10 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+
+    position: absolute;
+    left: -100vw;
+    transition: 0.5s;
 }
 
 .menu-lateral__logo {
@@ -91,4 +95,8 @@ body {
 
 .menu-lateral__link--pinturas::before {
     content: '\e90a';
+}
+
+.menu-lateral--ativo {
+    left: 0;
 }
