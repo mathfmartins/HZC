@@ -103,10 +103,17 @@ body {
 
 .principal {
     padding: 1.5rem 1rem;
+    display: grid;
+    gap: 1rem;
 }
 
 .titulo-pagina {
     font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.titulo-secao {
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -117,6 +124,9 @@ body {
     background-color: #2C343A;
 }
 
+.cartao--destaque {
+    margin-bottom: 1rem;
+}
 .cartao__conteudo {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -174,6 +184,10 @@ body {
 
 }
 
+.cartao__botao--play {
+    justify-self: end;
+}
+
 .cartao__botao--play::before{
     content: '\e90b';
     font-size: 1.5rem;
@@ -186,4 +200,9 @@ body {
 
 .cartao__botao--destaque::before {
     margin-right: 8px;
+}
+
+.secao {
+    display: grid;
+    gap: 1rem;
 }
