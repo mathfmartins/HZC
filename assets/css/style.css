@@ -41,7 +41,7 @@ body {
 
     position: absolute;
     left: -100vw;
-    transition: 0.5s;
+    transition: .25s;
 }
 
 .menu-lateral__logo {
