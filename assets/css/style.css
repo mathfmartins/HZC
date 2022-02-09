@@ -118,7 +118,21 @@ body {
 }
 
 .cartao__conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 1rem;
+}
+
+.cartao__destaque {
+    grid-column: 1 / -1;
+}
+
+.cartao__titulo {
+    grid-column: 1 / -1;
+}
+
+.cartao__perfil {
+    grid-column: 1 / -1;
 }
 
 .cartao__titulo {
@@ -156,6 +170,7 @@ body {
     height: 2.5rem;
     border-radius: 0.625rem;
     font-size: 0.9rem;
+
 }
 
 .cartao__botao--play::before{
@@ -165,6 +180,7 @@ body {
 
 .cartao__botao--destaque {
     width: 100%;
+    grid-column: 1 / -1;
 }
 
 .cartao__botao--destaque::before {
